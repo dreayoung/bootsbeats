@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import '@/styles/globals.css';
 import { League_Spartan } from 'next/font/google';
@@ -11,6 +12,7 @@ export default function App({ Component, pageProps }) {
       <main className={league.className}>
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </main>
     </>
   );

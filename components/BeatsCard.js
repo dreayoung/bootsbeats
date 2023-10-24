@@ -97,30 +97,28 @@ export default function BeatsCard() {
 
   return (
     <>
-      <div className="rounded-[1.3rem] bg-neutral-200 flex items-center p-4">
-        <Image
+      <div className="rounded-full bg-[#f1eeea] border-[1px] border-[#1f2023] transition-colors duration-300 hover:border-[#b95f80] p-4">
+        {/* <Image
           src="https://i.redd.it/7r3d9nlxyd991.png"
           width={100}
           height={100}
           className="rounded-xl w-14"
           alt="img"
-        />
-        <div className="">
-          <div className="text-center truncate w-[80%] mx-auto">
-            CALL ME ON MY HOTLINE
-          </div>
-          <Space wrap>
-            <Tooltip title="play">
-              <Button
-                type="primary"
-                shape="circle"
-                icon={<PlayCircleTwoTone />}
-              />
-            </Tooltip>
-            <Button type="primary" shape="round" onClick={showModal}>
-              Buy $00
-            </Button>
-          </Space>
+        /> */}
+        <div className="flex items-center gap-2">
+          <div className="truncate w-[80%] mx-auto">CALL ME ON MY HOTLINE</div>
+
+          <Tooltip title="play">
+            <Button
+              type="primary"
+              shape="circle"
+              icon={<PlayCircleTwoTone />}
+            />
+          </Tooltip>
+
+          <Button type="primary" shape="round" onClick={showModal}>
+            Buy $00
+          </Button>
         </div>
       </div>
       <Modal

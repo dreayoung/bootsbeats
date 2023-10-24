@@ -6,7 +6,7 @@ export default function About() {
     <main className="min-h-screen text-center lg:px-24 pt-32 uppercase flex flex-col md:mr-20 lg:ml-48">
       <Image
         src={disc}
-        className="hidden lg:block w-[35rem] absolute -left-72 bottom-10"
+        className="hidden lg:block w-[35rem] absolute -left-72 bottom-0"
         alt="disc logo"
       />
 
@@ -17,20 +17,17 @@ export default function About() {
         alt="disc logo"
       />
 
-      <h1 className="text-5xl lg:text-8xl font-bold tracking-widest">
-        About
-      </h1>
+      <h1 className="text-5xl lg:text-8xl font-bold tracking-widest">About</h1>
       <p className="px-8 lg:px-32 lg:leading-8 md:text-[1rem] lowercase py-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut <br />
-        <br />
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident
+        Welcome to Boots Beats, a state-of-the-art recording studio where music,
+        sound, and creativity converge to craft the soundscape of the future.
+        This documentation provides an insider's view into the world of
+        recording, showcasing the essential components and processes that make
+        this studio a hub for musical artistry.
       </p>
       <div className="px-8 lg:px-32">
         <div className="text-left tracking-widest underline underline-offset-8">
-          featured in
+          Notable Clients
         </div>
         <div className="flex items-center mt-20">
           <Image
