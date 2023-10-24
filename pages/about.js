@@ -21,7 +21,7 @@ export default function About() {
       <p className="px-8 lg:px-32 lg:leading-8 md:text-[1rem] lowercase py-6">
         Welcome to Boots Beats, a state-of-the-art recording studio where music,
         sound, and creativity converge to craft the soundscape of the future.
-        This documentation provides an insider's view into the world of
+        This documentation provides an insider&apos;s view into the world of
         recording, showcasing the essential components and processes that make
         this studio a hub for musical artistry.
       </p>
